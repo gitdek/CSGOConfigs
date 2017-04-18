@@ -1,6 +1,6 @@
 # CSGOConfigs
 
-CS:GO Configuration Files
+CS:GO Configuration Files - Updated regularly, extensive, and researched for best possible values.
 
 By J. Puglisi
 
@@ -9,27 +9,31 @@ By J. Puglisi
 [Download the latest release here](https://github.com/gitdek/CSGOConfigs/releases/latest)
 
 Locate the dir of your configuration files.
+
 Default directory is ```\Program Files (x86)\Steam\userdata\<yourid>\730\local\cfg\```
-Copy all files to that directory, and modify your launch options(they are in autoexec.cfg file for reference).
+
+Download the zip file. Extract all files to the directory where your configuration files are located. Modify your launch options(they are in autoexec.cfg file for reference).
 
 
-## autoexec.cfg
+### [autoexec.cfg](autoexec.cfg)
 Main configuration file.
 
 _Sections are commented if they are not self explanatory._
 
 
-## radiopanel.txt
+### [radiopanel.txt](radiopanel.txt)
 + Added a custom radio panel, with a complete and useful buy menu(key Z by default).
 This file resides in your `SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui directory`
 
 
-## crosshairs.cfg
-+ Some crosshairs I enjoy to switch between, KP_PLUS key toggles through all of them.
+### [crosshairs.cfg](crosshairs.cfg)
+Some crosshairs I enjoy to switch between, KP_PLUS key toggles through all of them.
 
+### [watchdemo.cfg](watchdemo.cfg)
+Configuration file to setup key bindings for watching demos easier.
 
-## buybinds.cfg
-+ Hold down Backspace to activate weapon buy binds on
+### [buybinds.cfg](buybinds.cfg)
+Hold down Backspace to activate weapon buy binds on
 
 1 2 3
 
@@ -39,8 +43,7 @@ A S D
 
 Z X C
 
-Reference
-----
+#### Reference table
 
 Type | Name | Console name
 --- | :---: | ---:
@@ -84,3 +87,6 @@ Gear|Kevlar |kevlar
 Gear|Kevlar+Helmet |vesthelm
 Gear|Zeus x27 |taser
 Gear|Defuse Kit |defuser
+
+
+
