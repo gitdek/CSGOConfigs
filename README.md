@@ -6,7 +6,7 @@ By J. Puglisi
 
 ## Getting Started
 
-[Download the latest release here](/releases/latest)
+[Download the latest release here](https://github.com/gitdek/CSGOConfigs/releases/latest)
 
 Locate the dir of your configuration files.
 Default directory is ```\Program Files (x86)\Steam\userdata\<yourid>\730\local\cfg\```
