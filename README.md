@@ -1,7 +1,20 @@
 # CSGOConfigs
-```CS:GO Configuration Files```
 
-:+1:
+CS:GO Configuration Files
+
+By J. Puglisi
+
+## Getting Started
+***
+Locate the dir of your configuration files.
+Default directory is ```\Program Files (x86)\Steam\userdata\<yourid>\730\local\cfg\```
+Copy all files to that directory, and modify your launch options(they are in autoexec.cfg file for reference).
+
+## autoexec.cfg
+Main configuration file.
+
+_Sections are commented if they are not self explanatory._
+
 
 ## radiopanel.txt
 + Added a custom radio panel, with a complete and useful buy menu(key Z by default).
