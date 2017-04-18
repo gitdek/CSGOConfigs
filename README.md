@@ -5,10 +5,13 @@ CS:GO Configuration Files
 By J. Puglisi
 
 ## Getting Started
-***
+
+[Download the latest release here](/releases/latest)
+
 Locate the dir of your configuration files.
 Default directory is ```\Program Files (x86)\Steam\userdata\<yourid>\730\local\cfg\```
 Copy all files to that directory, and modify your launch options(they are in autoexec.cfg file for reference).
+
 
 ## autoexec.cfg
 Main configuration file.
