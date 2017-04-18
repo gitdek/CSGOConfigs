@@ -1,13 +1,26 @@
 # CSGOConfigs
-CS:GO Configuration files
+```CS:GO Configuration Files```
 
-buybinds.cfg
-----
-Hold down Backspace to activate weapon buy binds on
+:+1:
+
+## radiopanel.txt
++ Added a custom radio panel, with a complete and useful buy menu(key Z by default).
+This file resides in your `SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui directory`
+
+
+## crosshairs.cfg
++ Some crosshairs I enjoy to switch between, KP_PLUS key toggles through all of them.
+
+
+## buybinds.cfg
++ Hold down Backspace to activate weapon buy binds on
 
 1 2 3
+
 Q W E
+
 A S D
+
 Z X C
 
 Reference
