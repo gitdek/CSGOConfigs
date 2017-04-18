@@ -23,7 +23,7 @@ _Sections are commented if they are not self explanatory._
 
 ### [radiopanel.txt](radiopanel.txt)
 + Added a custom radio panel, with a complete and useful buy menu(key Z by default).
-This file resides in your `SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui directory`
+This file resides in your `\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui directory`
 
 
 ### [crosshairs.cfg](crosshairs.cfg)
