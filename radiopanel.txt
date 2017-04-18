@@ -1,0 +1,159 @@
+"RadioPanel.txt"
+{
+	"Groups"
+	{	
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"Buy Menu<br>"
+			"timeout"	"5"
+			
+			"Commands"
+			{				
+				"<font color='#9bfda0'>Full Buy</font>"
+				{
+					"hotkey"	"1"
+					"label"	"<font color='#9bfda0'>Full Buy (with head armor)</font>"
+					"cmd"	"buy m4a1;buy ak47;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
+				}
+				
+				"<font color='#83cb76'>Full Buy (with only vest, no head armor)</font>"
+				{
+					"hotkey"	"2"
+					"label"	"<font color='#83cb76'>Full Buy (with only vest)</font>"
+					"cmd"	"buy m4a1;buy ak47;buy vest;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade"
+				}
+							
+				"<font color='#0080c0'>Full SMG Buy</font>"
+				{
+					"hotkey"	"3"
+					"label"	"<font color='#0080c0'>Full SMG Buy</font>"
+					"cmd"	"buy ump45; buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
+				}
+					
+				"<font color='#d1b0e8'>Force Buy (pistol vest)</font>"
+				{
+					"hotkey"	"4"
+					"label"	"<font color='#d1b0e8'>Force Buy (pistol vest)</font>"
+					"cmd"	"buy fn57;buy tec9;buy vest"
+				}
+							
+				"<font color='#f0a8ba'>Buy one of each nade</font>"
+				{
+					"hotkey"	"5"
+					"label"	"<font color='#f0a8ba'>Buy one of each nade</font>"
+					"cmd"	"buy flashbang; buy smokegrenade; buy hegrenade; buy molotov; buy incgrenade"
+				}
+				
+				"<font color='#f0a8ba'>Two Flashes and Smoke</font>"
+				{
+					"hotkey"	"6"
+					"label"	"<font color='#f0a8ba'>Two Flashes and Smoke</font>"
+					"cmd"	"buy flashbang;buy flashbang; buy smokegrenade;"
+				}
+				"<font color='#ff8000'>Deagle and Vest (one deag mode)</font>"
+				{
+					"hotkey"	"7"
+					"label"	"<font color='#ff8000'>Deagle and Vest (one deag mode)</font>"
+					"cmd"	"buy deagle; buy vest;"
+				}
+				"<font color='#400040'>AWP Full Buy</font>"
+				{
+					"hotkey"	"8"
+					"label"	"<font color='#400040'>AWP Full Buy</font>"
+					"cmd"	"buy awp;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
+				}
+			}
+		}	
+		"group"
+		{
+			"hotkey"	"2"
+			"title"	"Radio 2"
+			"timeout"	"5"
+			
+			"Commands"
+			{				
+				"Yes"
+				{
+					"hotkey"	"1"
+					"label"	"Yes"
+					"cmd"	"roger"
+				}
+							
+				"No"
+				{
+					"hotkey"	"2"
+					"label"	"No"
+					"cmd"	"negative"
+				}
+							
+				"Cheer"
+				{
+					"hotkey"	"3"
+					"label"	"Cheer"
+					"cmd"	"cheer"
+				}
+							
+				"Complement"
+				{
+					"hotkey"	"4"
+					"label"	"Complement"
+					"cmd"	"compliment"
+				}
+							
+				"Thanks"
+				{
+					"hotkey"	"5"
+					"label"	"Thanks"
+					"cmd"	"thanks"
+				}
+							
+			}
+		}	
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"Radio 3"
+			"timeout"	"5"
+			
+			"Commands"
+			{				
+				"Enemy Spotted"
+				{
+					"hotkey"	"1"
+					"label"	"Enemy Spotted"
+					"cmd"	"enemyspot"
+				}
+							
+				"Need Backup"
+				{
+					"hotkey"	"2"
+					"label"	"Need Backup"
+					"cmd"	"needbackup"
+				}
+							
+				"You Take the Point"
+				{
+					"hotkey"	"3"
+					"label"	"You Take the Point"
+					"cmd"	"takepoint"
+				}
+							
+				"Sector Clear"
+				{
+					"hotkey"	"4"
+					"label"	"Sector Clear"
+					"cmd"	"sectorclear"
+				}
+							
+				"I'm in Position"
+				{
+					"hotkey"	"5"
+					"label"	"I'm in Position"
+					"cmd"	"inposition"
+				}
+							
+			}
+		}		
+	}
+}
