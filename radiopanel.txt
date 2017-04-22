@@ -10,38 +10,38 @@
 			
 			"Commands"
 			{				
-				"<font color='#9bfda0'>Full Buy</font>"
+				"<font color='#9bfda0'><b>Full Buy</b></font>"
 				{
 					"hotkey"	"1"
-					"label"	"<font color='#9bfda0'>Full Buy (with head armor)</font>"
+					"label"	"<font color='#80ff00' size='24'><b>Full Buy</b></font> <font color='#80cfff' size='12'>(with head armor, defuser, all nades)</font>"
 					"cmd"	"buy m4a1;buy ak47;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
 				}
 				
-				"<font color='#83cb76'>Full Buy (with only vest, no head armor)</font>"
+				"<font color='#83cb76'><b>Full Buy</b> (with only vest, no head armor)</font>"
 				{
 					"hotkey"	"2"
-					"label"	"<font color='#83cb76'>Full Buy (with only vest)</font>"
+					"label"	"<font color='#83cb76' size='24'><b>Full Buy</b></font> <font color='#80cfff' size='12'>(with only vest, no head armor, defuser, all nades)</font>"
 					"cmd"	"buy m4a1;buy ak47;buy vest;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade"
 				}
 							
-				"<font color='#0080c0'>Full SMG Buy</font>"
+				"<font color='#408080'>Full SMG Buy</font>"
 				{
 					"hotkey"	"3"
-					"label"	"<font color='#0080c0'>Full SMG Buy</font>"
-					"cmd"	"buy ump45; buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
+					"label"	"<font color='#408080'><b>Full SMG Buy</b></font> <font color='#80cfff' size='12'>(ump45, vesthelm, defuser, all nades)</font>"
+					"cmd"	"buy ump45;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
 				}
 					
 				"<font color='#d1b0e8'>Force Buy (pistol vest)</font>"
 				{
 					"hotkey"	"4"
-					"label"	"<font color='#d1b0e8'>Force Buy (pistol vest)</font>"
+					"label"	"<font color='#d1b0e8'><b>Force Buy</b></font> <font color='#80cfff' size='12'>(fiveseven/tek9 and vest)</font>"
 					"cmd"	"buy fn57;buy tec9;buy vest"
 				}
 							
-				"<font color='#f0a8ba'>Buy one of each nade</font>"
+				"<font color='#f20000'>Buy ONE of Each Nade</font>"
 				{
 					"hotkey"	"5"
-					"label"	"<font color='#f0a8ba'>Buy one of each nade</font>"
+					"label"	"<font color='#f20000'>Buy one of each nade</font>"
 					"cmd"	"buy flashbang; buy smokegrenade; buy hegrenade; buy molotov; buy incgrenade"
 				}
 				
@@ -54,7 +54,7 @@
 				"<font color='#ff8000'>Deagle and Vest (one deag mode)</font>"
 				{
 					"hotkey"	"7"
-					"label"	"<font color='#ff8000'>Deagle and Vest (one deag mode)</font>"
+					"label"	"<font color='#ff8000'>Deagle and Vest</font> <font color='#80cfff' size='12'>(one deag mode)</font>"
 					"cmd"	"buy deagle; buy vest;"
 				}
 				"<font color='#400040'>AWP Full Buy</font>"
@@ -62,6 +62,13 @@
 					"hotkey"	"8"
 					"label"	"<font color='#400040'>AWP Full Buy</font>"
 					"cmd"	"buy awp;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
+				}
+
+				"DROP ME"
+				{
+					"hotkey"	"9"
+					"label"	"I NEED A DROP!"
+					"cmd"	"say_team Hey Team! I need a drop please!;thanks"
 				}
 			}
 		}	
