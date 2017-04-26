@@ -26,6 +26,8 @@ _Sections are commented if they are not self explanatory._
 This file resides in your `\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui directory`
 
 
+![Radio panel](https://steamuserimages-a.akamaihd.net/ugc/823439759933968784/816EC5D175D39CFF6C6FFC500A70E222F6C33B16/)
+
 ### [crosshairs.cfg](crosshairs.cfg)
 Some crosshairs I enjoy to switch between, KP_PLUS key toggles through all of them.
 
