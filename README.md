@@ -4,9 +4,13 @@ CS:GO Configuration Files - Updated regularly, extensive, and researched for bes
 
 By J. Puglisi
 
+Any questions or improvements you'd like to see, my steam profile is http://steamcommunity.com/id/justpuglisij/
+
+
 ## Getting Started
 
-[Download the latest release here](https://github.com/gitdek/CSGOConfigs/releases/latest)
+## [Download the latest release here(.zip)](https://github.com/gitdek/CSGOConfigs/releases/latest)
+### [Browse the files on github](https://github.com/gitdek/CSGOConfigs)
 
 Locate the dir of your configuration files.
 
