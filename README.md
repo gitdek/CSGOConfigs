@@ -2,9 +2,9 @@
 
 CS:GO Configuration Files - Updated regularly, extensive, and researched for best possible values.
 
-By J. Puglisi
+By J. Puglisi (d@wwwdotorg.com)
 
-Any questions or improvements you'd like to see, my steam profile is http://steamcommunity.com/id/justpuglisij/
+If you have any questions, improvements you would like to see, or like to leave a positive comment, my steam profile is [http://steamcommunity.com/id/justpuglisij/](http://steamcommunity.com/id/justpuglisij/)
 
 
 ## Getting Started
