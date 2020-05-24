@@ -3,7 +3,7 @@
 CS:GO Configuration Files - Updated regularly, extensive, and researched for best possible values.
 
 
-If you have any questions, improvements you would like to see, or like to leave a positive comment, my steam profile is [http://steamcommunity.com/id/justpuglisij/](http://steamcommunity.com/id/justpuglisij/)
+If you have any questions, improvements you would like to see, or like to leave a positive comment, my steam profile is [http://steamcommunity.com/id/dek01/](http://steamcommunity.com/id/dek01/)
 
 
 ## Getting Started
@@ -11,9 +11,9 @@ If you have any questions, improvements you would like to see, or like to leave 
 ## [Download the latest release here(.zip)](https://github.com/gitdek/CSGOConfigs/releases/latest)
 ### [Browse the files on github](https://github.com/gitdek/CSGOConfigs)
 
-Locate the dir of your configuration files.
+Locate the directory of your configuration files.
 
-Default directory is ```\Program Files (x86)\Steam\userdata\<yourid>\730\local\cfg\```
+Default directory is ```%ProgramFiles(x86)%\Steam\userdata\<yourid>\730\local\cfg\```
 
 Download the zip file. Extract all files to the directory where your configuration files are located. Modify your launch options(they are in autoexec.cfg file for reference).
 
@@ -26,7 +26,7 @@ _Sections are commented if they are not self explanatory._
 
 ### [RadioPanel.txt](RadioPanel.txt)
 + Added a custom radio panel, with a complete and useful buy menu(key Z by default).
-This file resides in your `\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui directory`
+This file resides in your `%ProgramFiles(x86)%\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui\` directory
 
 
 ![Radio panel](https://steamuserimages-a.akamaihd.net/ugc/823439759933968784/816EC5D175D39CFF6C6FFC500A70E222F6C33B16/)
