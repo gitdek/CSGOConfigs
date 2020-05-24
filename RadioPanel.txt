@@ -1,69 +1,73 @@
 "RadioPanel.txt"
 {
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
 	"Groups"
 	{	
 		"standard"
 		{
 			"hotkey"	"1"
-			"title"	"Buy Menu<br>"
-			"timeout"	"5"
+			"title"	"#SFUI_CommandRadio"
+			"timeout"	"10"
 			
 			"Commands"
 			{				
-				"<font color='#9bfda0'><b>Full Buy</b></font>"
+				"Full Buy"
 				{
 					"hotkey"	"1"
-					"label"	"<font color='#80ff00' size='24'><b>Full Buy</b></font> <font color='#80cfff' size='12'>(with head armor, defuser, all nades)</font>"
+					"label"	"Full Buy (m4/ak with head armor, defuser, all nades)"
 					"cmd"	"buy m4a1;buy ak47;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
 				}
 				
-				"<font color='#83cb76'><b>Full Buy</b> (with only vest, no head armor)</font>"
+				"Full Buy (with only vest, no head armor)"
 				{
 					"hotkey"	"2"
-					"label"	"<font color='#83cb76' size='24'><b>Full Buy</b></font> <font color='#80cfff' size='12'>(with only vest, no head armor, defuser, all nades)</font>"
+					"label"	"Full Buy (m4/ak with only vest, no head armor, defuser, all nades)"
 					"cmd"	"buy m4a1;buy ak47;buy vest;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade"
 				}
-							
-				"<font color='#408080'>Full SMG Buy</font>"
+								
+				"Full SMG Buy"
 				{
 					"hotkey"	"3"
-					"label"	"<font color='#408080'><b>Full SMG Buy</b></font> <font color='#80cfff' size='12'>(ump45, vesthelm, defuser, all nades)</font>"
+					"label"	"Full SMG Buy (ump45, vesthelm, defuser, all nades)"
 					"cmd"	"buy ump45;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
 				}
 					
-				"<font color='#d1b0e8'>Force Buy (pistol vest)</font>"
+				"Force Buy (pistol vest)"
 				{
 					"hotkey"	"4"
-					"label"	"<font color='#d1b0e8'><b>Force Buy</b></font> <font color='#80cfff' size='12'>(fiveseven/tek9 and vest)</font>"
+					"label"	"Force Buy (P250/CZ75-Auto and vest)"
 					"cmd"	"buy fn57;buy tec9;buy vest"
 				}
 							
-				"<font color='#f20000'>Buy ONE of Each Nade</font>"
+				"Buy ONE of Each Nade"
 				{
 					"hotkey"	"5"
-					"label"	"<font color='#f20000'>Buy one of each nade</font>"
+					"label"	"Buy one of each nade"
 					"cmd"	"buy flashbang; buy smokegrenade; buy hegrenade; buy molotov; buy incgrenade"
 				}
 				
-				"<font color='#f0a8ba'>Two Flashes and Smoke</font>"
+				"Two Flashes and Smoke"
 				{
 					"hotkey"	"6"
-					"label"	"<font color='#f0a8ba'>Two Flashes and Smoke</font>"
+					"label"	"Two Flashes and Smoke"
 					"cmd"	"buy flashbang;buy flashbang; buy smokegrenade;"
 				}
-				"<font color='#ff8000'>Deagle and Vest (one deag mode)</font>"
+				"Deagle and Vest (one deag mode)"
 				{
 					"hotkey"	"7"
-					"label"	"<font color='#ff8000'>Deagle and Vest</font> <font color='#80cfff' size='12'>(one deag mode)</font>"
-					"cmd"	"buy deagle; buy vest;"
+					"label"	"Deagle and Vest (one deag mode)"
+					"cmd"	"buy deagle;buy vest"
 				}
-				"<font color='#400040'>AWP Full Buy</font>"
+				"AWP Full Buy"
 				{
 					"hotkey"	"8"
-					"label"	"<font color='#400040'>AWP Full Buy</font>"
+					"label"	"AWP Full Buy"
 					"cmd"	"buy awp;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
 				}
-
+				
 				"DROP ME"
 				{
 					"hotkey"	"9"
@@ -75,7 +79,7 @@
 		"group"
 		{
 			"hotkey"	"2"
-			"title"	"Radio 2"
+			"title"	"#SFUI_StandardRadio"
 			"timeout"	"5"
 			
 			"Commands"
@@ -120,7 +124,7 @@
 		"report"
 		{
 			"hotkey"	"3"
-			"title"	"Radio 3"
+			"title"	"#SFUI_ReportRadio"
 			"timeout"	"5"
 			
 			"Commands"

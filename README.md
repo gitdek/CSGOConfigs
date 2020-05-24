@@ -2,7 +2,6 @@
 
 CS:GO Configuration Files - Updated regularly, extensive, and researched for best possible values.
 
-By J. Puglisi (d@wwwdotorg.com)
 
 If you have any questions, improvements you would like to see, or like to leave a positive comment, my steam profile is [http://steamcommunity.com/id/justpuglisij/](http://steamcommunity.com/id/justpuglisij/)
 
@@ -25,7 +24,7 @@ Main configuration file.
 _Sections are commented if they are not self explanatory._
 
 
-### [radiopanel.txt](radiopanel.txt)
+### [RadioPanel.txt](RadioPanel.txt)
 + Added a custom radio panel, with a complete and useful buy menu(key Z by default).
 This file resides in your `\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui directory`
 
