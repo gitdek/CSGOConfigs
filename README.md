@@ -65,8 +65,9 @@ A S D F
 Z X C
 
 #### Bind table
+
 Bind | Buy item
---- | :---: 
+--- | ---: 
 Backspace + 1 | vesthelm
 Backspace + 2 | vest
 Backspace + 3 | defuser
