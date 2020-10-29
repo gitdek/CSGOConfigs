@@ -44,8 +44,7 @@ On Windows move RadioPanel.txt file to `%ProgramFiles(x86)%\Steam\steamapps\comm
 On macOS move RadioPanel.txt file to `~/Library/Application Support/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/resource/ui/`
 
 You must restart your game after.
-
-![Radio panel](https://steamuserimages-a.akamaihd.net/ugc/823439759933968784/816EC5D175D39CFF6C6FFC500A70E222F6C33B16/)
+![Radio panel](https://steamuserimages-a.akamaihd.net/ugc/1695002886412537477/4AC1D62F9D5B49549F7D58CF5B5355C6F1EC1896/)
 
 ### [crosshairs.cfg](crosshairs.cfg)
 Some crosshairs I enjoy to switch between, KP_PLUS key toggles through all of them.
@@ -67,7 +66,7 @@ Z X C
 #### Bind table
 
 Bind | Buy item
---- | ---: 
+--- | ---:
 Backspace + 1 | vesthelm
 Backspace + 2 | vest
 Backspace + 3 | defuser
