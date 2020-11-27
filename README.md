@@ -2,9 +2,8 @@
 
 CS:GO Configuration Files - Updated regularly, extensive, and researched for best possible values.
 
-By J. Puglisi (d@wwwdotorg.com)
 
-If you have any questions, improvements you would like to see, or like to leave a positive comment, my steam profile is [http://steamcommunity.com/id/justpuglisij/](http://steamcommunity.com/id/justpuglisij/)
+If you have any questions, improvements you would like to see, or like to leave a positive comment visit my [steam profile](http://steamcommunity.com/id/dek01/)
 
 
 ## Getting Started
@@ -12,11 +11,23 @@ If you have any questions, improvements you would like to see, or like to leave 
 ## [Download the latest release here(.zip)](https://github.com/gitdek/CSGOConfigs/releases/latest)
 ### [Browse the files on github](https://github.com/gitdek/CSGOConfigs)
 
-Locate the dir of your configuration files.
+### Download the zip file. Extract all files to the directory where your configuration files are located. Modify your launch options(they are in autoexec.cfg file for reference).
 
-Default directory is ```\Program Files (x86)\Steam\userdata\<yourid>\730\local\cfg\```
+### Configuration directories
+Use the Windows directory ```%ProgramFiles(x86)%\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\``` to have the config files used across all your accounts, and for MAC ```~/Library/Application Support/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/```
 
-Download the zip file. Extract all files to the directory where your configuration files are located. Modify your launch options(they are in autoexec.cfg file for reference).
+#### Windows
+Press Windows Key(❖) + R → Enter ```%ProgramFiles(x86)%\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\``` and click OK.
+
+#### macOS
+Open Finder window.
+Click Go in a Menu Bar → select Go to Folder → Enter ```~/Library/Application Support/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg``` and click Go.
+
+
+#### Running
+
+Launch CSGO after setting your launch options and placing your configuration files → Join a local server by opening the console with the ` key and enter "map de_dust2" and press enter. Once you are connected to the server, press the key 'K'. Open console and a printout of all the key bindings
+are printed to the console.
 
 
 ### [autoexec.cfg](autoexec.cfg)
@@ -25,18 +36,21 @@ Main configuration file.
 _Sections are commented if they are not self explanatory._
 
 
-### [radiopanel.txt](radiopanel.txt)
-+ Added a custom radio panel, with a complete and useful buy menu(key Z by default).
-This file resides in your `\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui directory`
+### [RadioPanel.txt](RadioPanel.txt)
++ Added a custom radio panel for a better visual buy menu with more flexibility. Press key *Z* to view it.
 
+On Windows move RadioPanel.txt file to `%ProgramFiles(x86)%\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui\`
 
-![Radio panel](https://steamuserimages-a.akamaihd.net/ugc/823439759933968784/816EC5D175D39CFF6C6FFC500A70E222F6C33B16/)
+On macOS move RadioPanel.txt file to `~/Library/Application Support/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/resource/ui/`
+
+You must restart your game after.
+![Radio panel](https://steamuserimages-a.akamaihd.net/ugc/1695002886412537477/4AC1D62F9D5B49549F7D58CF5B5355C6F1EC1896/)
 
 ### [crosshairs.cfg](crosshairs.cfg)
 Some crosshairs I enjoy to switch between, KP_PLUS key toggles through all of them.
 
 ### [watchdemo.cfg](watchdemo.cfg)
-Configuration file to setup key bindings for watching demos easier.
+Configuration file to set up key bindings for watching demos.
 
 ### [buybinds.cfg](buybinds.cfg)
 Hold down Backspace to activate weapon buy binds on
@@ -45,9 +59,30 @@ Hold down Backspace to activate weapon buy binds on
 
 Q W E
 
-A S D
+A S D F
 
 Z X C
+
+#### Bind table
+
+Bind | Buy item
+--- | ---:
+Backspace + 1 | vesthelm
+Backspace + 2 | vest
+Backspace + 3 | defuser
+Backspace + Q | awp
+Backspace + W | m4a1 or ak47
+Backspace + E | mp7
+Backspace + A | fn57 or tec9
+Backspace + S | p250
+Backspace + D | incgrenade or molotov
+Backspace + F | flashbang
+Backspace + Z | hegrenade
+Backspace + C | smokegrenade
+
+
+
+
 
 #### Reference table
 
@@ -93,6 +128,8 @@ Gear|Kevlar |kevlar
 Gear|Kevlar+Helmet |vesthelm
 Gear|Zeus x27 |taser
 Gear|Defuse Kit |defuser
+
+
 
 
 
