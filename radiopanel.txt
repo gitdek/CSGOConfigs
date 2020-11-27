@@ -1,82 +1,86 @@
 "RadioPanel.txt"
 {
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
 	"Groups"
 	{	
 		"standard"
 		{
 			"hotkey"	"1"
-			"title"	"Buy Menu<br>"
-			"timeout"	"5"
+			"title"	"BUY MENU"
+			"timeout"	"10"
 			
 			"Commands"
 			{				
-				"<font color='#9bfda0'><b>Full Buy</b></font>"
+				"Full Buy"
 				{
 					"hotkey"	"1"
-					"label"	"<font color='#80ff00' size='24'><b>Full Buy</b></font> <font color='#80cfff' size='12'>(with head armor, defuser, all nades)</font>"
-					"cmd"	"buy m4a1;buy ak47;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
+					"label"	"Full Buy (m4/ak with head armor, defuser, all nades)"
+					"cmd"	"buy vesthelm;buy m4a1;buy ak47;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
 				}
 				
-				"<font color='#83cb76'><b>Full Buy</b> (with only vest, no head armor)</font>"
+				"Full Buy (with only vest, no head armor)"
 				{
 					"hotkey"	"2"
-					"label"	"<font color='#83cb76' size='24'><b>Full Buy</b></font> <font color='#80cfff' size='12'>(with only vest, no head armor, defuser, all nades)</font>"
-					"cmd"	"buy m4a1;buy ak47;buy vest;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade"
+					"label"	"Full Buy (m4/ak with only vest, no head armor, defuser, all nades)"
+					"cmd"	"buy vest;buy m4a1;buy ak47;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade"
 				}
-							
-				"<font color='#408080'>Full SMG Buy</font>"
+								
+				"Full SMG Buy"
 				{
 					"hotkey"	"3"
-					"label"	"<font color='#408080'><b>Full SMG Buy</b></font> <font color='#80cfff' size='12'>(ump45, vesthelm, defuser, all nades)</font>"
-					"cmd"	"buy ump45;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
+					"label"	"Full SMG Buy (ump45, vesthelm, defuser, all nades)"
+					"cmd"	"buy vesthelm;buy ump45;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
 				}
 					
-				"<font color='#d1b0e8'>Force Buy (pistol vest)</font>"
+				"Force Buy (pistol vest)"
 				{
 					"hotkey"	"4"
-					"label"	"<font color='#d1b0e8'><b>Force Buy</b></font> <font color='#80cfff' size='12'>(fiveseven/tek9 and vest)</font>"
-					"cmd"	"buy fn57;buy tec9;buy vest"
+					"label"	"Force Buy (P250/CZ75-Auto and vest)"
+					"cmd"	"buy vest;buy fn57;buy tec9"
 				}
 							
-				"<font color='#f20000'>Buy ONE of Each Nade</font>"
+				"Buy ONE of Each Nade"
 				{
 					"hotkey"	"5"
-					"label"	"<font color='#f20000'>Buy one of each nade</font>"
-					"cmd"	"buy flashbang; buy smokegrenade; buy hegrenade; buy molotov; buy incgrenade"
+					"label"	"Buy one of each nade"
+					"cmd"	"buy flashbang;buy smokegrenade;buy hegrenade;buy molotov;buy incgrenade;buy decoy"
 				}
 				
-				"<font color='#f0a8ba'>Two Flashes and Smoke</font>"
+				"Two Flashes and Smoke"
 				{
 					"hotkey"	"6"
-					"label"	"<font color='#f0a8ba'>Two Flashes and Smoke</font>"
+					"label"	"Two Flashes and Smoke"
 					"cmd"	"buy flashbang;buy flashbang; buy smokegrenade;"
 				}
-				"<font color='#ff8000'>Deagle and Vest (one deag mode)</font>"
+				"Deagle and Vest (one deag mode)"
 				{
 					"hotkey"	"7"
-					"label"	"<font color='#ff8000'>Deagle and Vest</font> <font color='#80cfff' size='12'>(one deag mode)</font>"
-					"cmd"	"buy deagle; buy vest;"
+					"label"	"Deagle and Vest"
+					"cmd"	"buy vest;buy deagle"
 				}
-				"<font color='#400040'>AWP Full Buy</font>"
+				"AWP Full Buy"
 				{
 					"hotkey"	"8"
-					"label"	"<font color='#400040'>AWP Full Buy</font>"
-					"cmd"	"buy awp;buy vesthelm;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
+					"label"	"AWP Full Buy"
+					"cmd"	"buy vesthelm;buy awp;buy defuser;buy flashbang;buy smokegrenade;buy incgrenade;buy molotov;buy hegrenade;"
 				}
-
+				
 				"DROP ME"
 				{
 					"hotkey"	"9"
 					"label"	"I NEED A DROP!"
-					"cmd"	"say_team Hey Team! I need a drop please!;thanks"
+					"cmd"	"say_team *** Hey Team! I need a drop please!;needrop"
 				}
 			}
 		}	
 		"group"
 		{
 			"hotkey"	"2"
-			"title"	"Radio 2"
-			"timeout"	"5"
+			"title"	"#SFUI_StandardRadio"
+			"timeout"	"10"
 			
 			"Commands"
 			{				
@@ -101,66 +105,113 @@
 					"cmd"	"cheer"
 				}
 							
-				"Complement"
+				"sticktog"
 				{
 					"hotkey"	"4"
-					"label"	"Complement"
-					"cmd"	"compliment"
-				}
-							
-				"Thanks"
-				{
-					"hotkey"	"5"
-					"label"	"Thanks"
-					"cmd"	"thanks"
-				}
-							
-			}
-		}	
-		"report"
-		{
-			"hotkey"	"3"
-			"title"	"Radio 3"
-			"timeout"	"5"
-			
-			"Commands"
-			{				
-				"Enemy Spotted"
-				{
-					"hotkey"	"1"
-					"label"	"Enemy Spotted"
-					"cmd"	"enemyspot"
+					"label"	"#SFUI_Radio_Stick_Together"
+					"cmd"	"sticktog"
 				}
 							
 				"Need Backup"
 				{
-					"hotkey"	"2"
+					"hotkey"	"5"
 					"label"	"Need Backup"
 					"cmd"	"needbackup"
 				}
 							
-				"You Take the Point"
+				"regroup"
+				{
+					"hotkey"	"6"
+					"label"	"#SFUI_Radio_Regroup"
+					"cmd"	"regroup"
+				}
+				
+				"A"
+				{
+					"hotkey"	"7"
+					"label" "#SFUI_Radio_Go_A"
+					"cmd"  "go_a"
+				}
+				
+				"B"
+				{
+					"hotkey"	"8"
+					"label" "#SFUI_Radio_Go_B"
+					"cmd"  "go_b"
+				}
+				"go"
+				{
+					"hotkey"	"9"
+					"label"	"#SFUI_Radio_Go"
+					"cmd"	"go"
+				}						
+			}
+		}	
+		
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"#SFUI_ReportRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"enemyspot"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Spotted"
+					"cmd"	"enemyspot"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Need_Backup"
+					"cmd"	"needbackup"
+				}
+				
+				"takepoint"
 				{
 					"hotkey"	"3"
-					"label"	"You Take the Point"
+					"label"	"#SFUI_Radio_Take_Point"
 					"cmd"	"takepoint"
 				}
-							
-				"Sector Clear"
+				
+				"sectorclear"
 				{
 					"hotkey"	"4"
-					"label"	"Sector Clear"
+					"label"	"#SFUI_Radio_Sector_Clear"
 					"cmd"	"sectorclear"
 				}
-							
-				"I'm in Position"
+				
+				"inposition"
 				{
 					"hotkey"	"5"
-					"label"	"I'm in Position"
+					"label"	"#SFUI_Radio_In_Position"
 					"cmd"	"inposition"
 				}
-							
+
+				"takingfire"
+				{
+					"hotkey"	"6"
+					"label"	"#SFUI_Radio_Need_Assist"
+					"cmd"	"takingfire"
+				}
+
+				"report"
+				{
+					"hotkey"	"7"
+					"label"	"#SFUI_Radio_Report_In"
+					"cmd"	"report"
+				}
+
+				"getout"
+				{
+					"hotkey"	"8"
+					"label"	"#SFUI_Radio_Shes_Gonna_Blow"
+					"cmd"	"getout"
+				}			
 			}
-		}		
+		}
 	}
 }
