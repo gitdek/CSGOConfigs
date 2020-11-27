@@ -44,10 +44,10 @@ On Windows move RadioPanel.txt file to `%ProgramFiles(x86)%\Steam\steamapps\comm
 On macOS move RadioPanel.txt file to `~/Library/Application Support/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/resource/ui/`
 
 You must restart your game after.
-![Radio panel](https://steamuserimages-a.akamaihd.net/ugc/1695002886412537477/4AC1D62F9D5B49549F7D58CF5B5355C6F1EC1896/)
+![Radio panel](https://steamuserimages-a.akamaihd.net/ugc/1667984048838259324/91F302462ABFE6A8983BD51E894E72E93BA07102/)
 
 ### [crosshairs.cfg](crosshairs.cfg)
-Some crosshairs I enjoy to switch between, KP_PLUS key toggles through all of them.
+Some crosshairs I enjoy to switch between, comma key iterates through all of them.
 
 ### [watchdemo.cfg](watchdemo.cfg)
 Configuration file to set up key bindings for watching demos.
@@ -63,28 +63,28 @@ A S D F
 
 Z X C
 
-#### Bind table
+### Bind table
 
 Bind | Buy item
 --- | ---:
-Backspace + 1 | vesthelm
-Backspace + 2 | vest
+Backspace + 1 | vest
+Backspace + 2 | vesthelm
 Backspace + 3 | defuser
 Backspace + Q | awp
 Backspace + W | m4a1 or ak47
-Backspace + E | mp7
-Backspace + A | fn57 or tec9
-Backspace + S | p250
+Backspace + E | famas or galil
+Backspace + A | he grenade
+Backspace + S | smoke
 Backspace + D | incgrenade or molotov
 Backspace + F | flashbang
-Backspace + Z | hegrenade
-Backspace + C | smokegrenade
+Backspace + Z | deagle
+Backspace + X | custom radio
+Backspace + C | scout
 
 
+## Below is a table with the friendly name of the weapon and the console name.
 
-
-
-#### Reference table
+### Reference table
 
 Type | Name | Console name
 --- | :---: | ---:
