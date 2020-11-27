@@ -40,7 +40,7 @@ $configs = @(
     'buybinds.cfg'
 )
 
-$skipUpdate = 0
+$skipUpdate = 1
 $script:steps = (($configs.Count * 2) + 4)
 $stepCounter = 0
 $userdata = "${env:ProgramFiles(x86)}\Steam\userdata\"
