@@ -1,5 +1,6 @@
 # setup.ps1
 # Script to backup, update, and copy over all files from CSGOConfigs
+# bf2c952cec1100d5cbe11f32735a14e4f6956bf47a61e0bac036b64ae86ff011  setup.ps1
 
 function Write-ProgressHelper {
 	param (
@@ -10,24 +11,24 @@ function Write-ProgressHelper {
 	Write-Progress -Activity 'CSGOConfigs' -Status $Message -PercentComplete (($StepNumber / $steps) * 100)
 }
 
-function DownloadGitHubRepository { 
-    param( 
-       [Parameter(Mandatory=$True)] 
-       [string] $Name, 
-         
-       [Parameter(Mandatory=$True)] 
-       [string] $Author, 
-         
-       [Parameter(Mandatory=$False)] 
-       [string] $Branch = "master", 
-         
-       [Parameter(Mandatory=$False)] 
+function DownloadGitHubRepository {
+    param(
+       [Parameter(Mandatory=$True)]
+       [string] $Name,
+
+       [Parameter(Mandatory=$True)]
+       [string] $Author,
+
+       [Parameter(Mandatory=$False)]
+       [string] $Branch = "master",
+
+       [Parameter(Mandatory=$False)]
        [string] $Location = "c:\temp"
     )
-	
+
     $ZipFile = "$location\$Name.zip"
     New-Item $ZipFile -ItemType File -Force
-    $RepositoryZipUrl = "https://api.github.com/repos/$Author/$Name/zipball/$Branch" 
+    $RepositoryZipUrl = "https://api.github.com/repos/$Author/$Name/zipball/$Branch"
     Invoke-RestMethod -Uri $RepositoryZipUrl -OutFile $ZipFile
     Expand-Archive -Path $ZipFile -DestinationPath $Location -Force
     Remove-Item -Path $ZipFile -Force
@@ -87,7 +88,7 @@ foreach ($k in $configs) {
 Copy-Item $x\video.txt -Destination $x\video.txt.$dateStr.backup -ErrorAction Ignore
 Write-ProgressHelper -Message 'Backing up files...' -StepNumber ($stepCounter++)
 Start-Sleep -Seconds 1
-	
+
 Copy-Item $x\config.cfg -Destination $x\config.cfg.$dateStr.backup -ErrorAction Ignore
 Write-ProgressHelper -Message 'Backing up files...' -StepNumber ($stepCounter++)
 Start-Sleep -Seconds 1
